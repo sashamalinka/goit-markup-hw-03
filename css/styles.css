@@ -172,6 +172,10 @@ overflow: hidden;
 .title-h {
 }
 
+.title {
+width: calc((100% - 72px) / 4);
+}
+
 .title-list {
 display: flex;
 gap: 24px;
