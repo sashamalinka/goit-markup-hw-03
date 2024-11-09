@@ -112,9 +112,11 @@ color: #404bbf;
 
 .benefits {
 background-color: #2e2f42;
+padding: 180px 0;
 }
 
 .benefints-title {
+max-width: 496px
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -124,6 +126,11 @@ color: #fff;
 }
 
 .benefints-button {
+border-radius: 4px;
+border: none;
+height: 56px;
+min-width: 169px;
+display: block;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -138,11 +145,16 @@ cursor: pointer
 background-color: #404BBF
 }
 
-.title-h {}
+.title-h {
+}
 
-.title-list {}
+.title-list {
+display: flex;
+gap: 24px;
+}
 
 .subtitle-text {
+width: calc((100% - 72px) / 4)
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
