@@ -4,7 +4,7 @@ color: #434455;
 background-color: #fff;
 }
 
-.img {
+img {
 display: block;
 }
 
@@ -35,6 +35,8 @@ margin: 0 auto;
 }
 
 .logo {
+display: inline-block;
+margin-bottom: 16px;
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
@@ -308,8 +310,6 @@ background-color: #2e2f42;
 }
 
 .footer-logo .logo-part {
-margin-bottom: 16px;
-display: inline-block;
 color: #f4f4fd;
 }
 
