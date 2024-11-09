@@ -303,14 +303,19 @@ color: #434455;
 }
 
 .page-footer {
+padding: 100px 0;
 background-color: #2e2f42;
 }
 
 .footer-logo .logo-part {
+margin-bottom: 16px;
+display: inline-block;
 color: #f4f4fd;
 }
 
 .footer-text {
+width: 264px;
+height: 72px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
